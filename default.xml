@@ -48,6 +48,7 @@
   </project>
 
   <project remote="yocto" name="meta-fsl-arm" path="sources/meta-fsl-arm"/>
+  <project remote="yocto" name="meta-fsl-ppc" path="sources/meta-fsl-ppc"/>
   <project remote="yocto" name="meta-intel" path="sources/meta-intel"/>
   <project remote="yocto" name="meta-xilinx" path="sources/meta-xilinx"/>
   <project remote="yocto" name="meta-ti" path="sources/meta-ti"/>
