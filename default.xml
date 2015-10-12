@@ -46,6 +46,7 @@
   <project remote="github" name="Angstrom-distribution/meta-angstrom" path="sources/meta-angstrom">
       <copyfile dest="setup-environment" src="../../.repo/manifests/setup-environment"/>
   </project>
+  <project remote="github" name="rehsack/meta-java" path="sources/meta-java"/>
 
   <project remote="yocto" name="meta-fsl-arm" path="sources/meta-fsl-arm"/>
   <project remote="yocto" name="meta-fsl-ppc" path="sources/meta-fsl-ppc"/>
@@ -55,7 +56,6 @@
   <project remote="yocto" name="meta-mono" path="sources/meta-mono"/>
   <project remote="yocto" name="meta-minnow" path="sources/meta-minnow"/>
   <project remote="yocto" name="meta-raspberrypi" path="sources/meta-raspberrypi"/>
-  <project remote="yocto" name="meta-java" path="sources/meta-java"/>
   <project remote="yocto" name="meta-maker" path="sources/meta-maker"/>
 
 </manifest>
