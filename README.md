@@ -1,6 +1,10 @@
 angstrom-manifest
 =================
 
+This is a forked project for personal uses, doǹt expect support from Torqueware.
+
+=================
+
 Ångström Repo manifest repository
 
 These are the setup scripts for the Ångström buildsystem. If you want to (re)build packages or images for Ångström, this is the thing to use.
@@ -16,11 +20,11 @@ To configure the scripts and download the build metadata, do:
 
 Run repo init to bring down the latest version of Repo with all its most recent bug fixes. You must specify a URL for the manifest, which specifies where the various repositories included in the Android source will be placed within your working directory.
 
-	$ repo init -u git://github.com/Angstrom-distribution/angstrom-manifest
+	$ repo init -u git://github.com/Torqueware/angstrom-manifest
 
 To check out a branch other than "master", specify it with -b:
 
-	$ repo init -u git://github.com/Angstrom-distribution/angstrom-manifest -b angstrom-v2015.06-yocto1.8
+	$ repo init -u git://github.com/Torqueware/angstrom-manifest -b angstrom-v2015.06-yocto1.8
 
 When prompted, configure Repo with your real name and email address.
 
