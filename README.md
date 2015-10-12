@@ -1,6 +1,7 @@
 angstrom-manifest
 =================
-This is a forked project for personal uses, doǹt expect support from Torqueware.
+
+This is a forked project for personal uses, doǹ t expect support from Torqueware.
 =================
 
 Ångström Repo manifest repository
