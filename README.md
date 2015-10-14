@@ -22,7 +22,7 @@ Run repo init to bring down the latest version of Repo with all its most recent 
 
 To check out a branch other than "master", specify it with -b:
 
-	$ repo init -u git://github.com/Torqueware/angstrom-manifest -b angstrom-v2015.06-yocto1.8
+	$ repo init -u git://github.com/Torqueware/angstrom-manifest -b openjdk-8-jre
 
 When prompted, configure Repo with your real name and email address.
 
